@@ -13,6 +13,8 @@ df=pd.DataFrame(data)
 new_row_loc={'Name':"GF1",'Age':26,'Location':"Ambala"}
 df.loc[len(df.index)]=new_row_loc
 
+new_row_loc1={'Name':"GF1",'Age':26,'Location':"Ambala"}
+df.loc[len(df.index)]=new_row_loc1
 
 data_dir='data'
 
