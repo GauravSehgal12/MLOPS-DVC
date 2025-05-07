@@ -7,8 +7,11 @@ data={
     'Location':["America","Kurukshetra","Pehowa"]
 }
 
+
 df=pd.DataFrame(data)
 
+new_row_loc={'Name':"GF1",'Age':26,'Location':"Ambala"}
+df.loc[len(df.index)]=new_row_loc
 
 
 data_dir='data'
